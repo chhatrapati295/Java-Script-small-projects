@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+}
+.box{
+    width: 50%;
+    height: 100%;
+}
+.left{
+    transition: all 1s ease-in-out;
+    background: url("https://th.bing.com/th/id/R.9dee25b96885706e3d8d12c0352b3418?rik=cFFgskG%2b0i1lHA&riu=http%3a%2f%2fshop.bense.net%2fmedia%2f26%2f74%2f7a%2f1604956686%2fiphone-12-pro-max-blue-hero.png&ehk=nt6Bkzx%2fNX5kJ1d0YUfEOpW3A5u0JBSHBweDq%2fhGbh4%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    position: relative;
+    
+}
+.right{
+    transition: all 1s ease-in-out;
+    background: url("https://th.bing.com/th/id/OIP.MOcfaj0mdHeSJ6VI-G4FJwHaMK?w=115&h=180&c=7&r=0&o=5&dpr=1.7&pid=1.7");
+    background-size: cover;
+    position: relative;
+    
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+button:hover{
+    background: gainsboro;
+    transition: all 0.4s ease;
+}
+.leftBig.left{
+    width: 75%;
+}
+.leftBig.right{
+    width: 25%;
+}
+.rightBig.left{
+    width: 25%;
+}
+.rightBig.right{
+    width: 75%;
+}
