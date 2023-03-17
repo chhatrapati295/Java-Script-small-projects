@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    gap: 5px;
+}
+.container .box{
+    position: relative;
+    flex: 1;
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+.box span{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+}
+.box div{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    color: green;
+    font-weight: bold;
+    font-size: 3rem;
+}

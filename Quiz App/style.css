@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    width: 100vw;
+    object-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.4rem ;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 25vw;
+    /* min-height: 25vh; */
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0.7rem;
+    gap: 5px;
+    color: white;
+    
+}
+
+.container p{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.btn-container{
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    padding: 0.3rem 0.8rem;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    background-color: #288A58;
+    /* background: none; */
+}
+.btn:hover{
+    /* background: none; */
+    background-color: #217349 ;
+    transition: all 0.4s ease-in-out;
+    /* border: 1px solid white; */
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 20px;
+}
+
+@media (max-width : 767px){
+    .container{
+        width: 70vw;
+        height: auto;
+    }
+}

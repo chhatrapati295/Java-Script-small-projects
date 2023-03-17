@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    border: 2px solid black;
+    padding: 1rem;
+    width: 30%;
+    height: 30%;
+    border-radius: 4px;
+    position: relative;
+}
+.emojis i{
+    font-size: 5rem ;
+}
+.stars i{
+    font-size: 3rem;
+}
+.emojis{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    /* background: darkcyan; */
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+    font-size: 5rem;
+}
+.emoji{
+    transform: translateX(0);
+    font-size: 5rem;
+    transition: all 0.5s ease-in-out;
+}
+.stars{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.active{
+    color: orange;
+}
+
+@media (max-width : 768px) {
+    .container{
+        width: 70%;
+        height: 20%;
+    }
+}

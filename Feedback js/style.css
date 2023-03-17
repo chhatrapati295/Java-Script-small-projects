@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./matt-essig-KdTGS-AwmA4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    cursor: pointer;
+    width: 40%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 80%;
+
+}
+.heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.box{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.box i{
+    font-size: 3rem;
+}
+.box span{
+    font-size: 1rem;
+}
+.box-sm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+}
+.btn{
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    outline: none;
+    background-color: royalblue;
+    font-weight: 500;
+}
+.btn2{
+    border: none;
+    outline: none;
+    background: none;
+    color: blueviolet;
+    margin-top: 1rem;
+    border-bottom: 2px solid blueviolet;
+    padding: 0;
+    font-size: 1.4rem;
+}
+.btn2:hover{
+    border-color: white;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background: rgb(64, 64, 248);
+    transition: all 0.3s ease-in-out;
+}
+#sad{
+    color: crimson;
+}
+#satisfied{
+    color: green;
+}
+.box i:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.container2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+.one ,.two{
+    font-weight: 500;
+}
+
+/* Responsiveness */
+@media (max-width : 768px) {
+    .container{
+        width: 90%;
+    }
+}
