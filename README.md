@@ -1,3 +1,3 @@
 # Java-Script-small-projects
 
-This repository has 15 + JavaScript projects.
+This repository has 20 + JavaScript projects.
