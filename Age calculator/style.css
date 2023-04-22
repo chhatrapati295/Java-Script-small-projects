@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+    font-size: 1rem;
+}
+.heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+label{
+    font-size: 0.8rem;
+}
+#inputDate , #btn{
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+#btn{
+    width: 50%;
+    align-self: center;
+    background: rgb(81, 93, 254);
+    color: white;
+    border: none;
+}
+.result{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+@media (max-width : 900px) {
+    .container{
+        width: 90%;
+    }
+    form{
+        width: 80%  ;
+    }
+}
