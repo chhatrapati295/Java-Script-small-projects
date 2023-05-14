@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1rem;
+    width: 40%;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+.scoreDiv{
+    display: flex;
+    justify-content: end;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.input , .submit{
+    padding: 0.5rem;
+    border: 1px solid black;
+    outline: none;
+}
+.submit{
+    align-self: center;
+}
+.que{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
